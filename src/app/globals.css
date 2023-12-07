@@ -2,6 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+
+.setcolor{
+  /* background-color: aqua; */
+  width: 80%;
+height: 70px;
+font-weight: 700;
+  /* display: inline-flex; */
+/* align-items: flex-start; */
+/* gap: 10px; */
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
