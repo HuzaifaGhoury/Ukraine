@@ -2,7 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+.text-FF9A02 {
+  --tw-text-opacity: 1;
+  background-color: rgba(255, 154, 2, var(--tw-text-opacity));
+ }
 .setcolor{
   /* background-color: aqua; */
   width: 80%;
