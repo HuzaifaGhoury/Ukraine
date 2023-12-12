@@ -31,10 +31,10 @@ export default function Footer() {
 </h1>
 
 </div>
-<div className="flex w-full p-2 justify-center items-center gap-1 md:gap-10 mt-10">
-        <Image src={logo5} alt="logo3" />
-        <Image src={logo4} alt="lines" />
-        <Image src={logo7} alt="logo1" />
+<div className="flex w-full p-2 justify-center items-center  md:gap-10 mt-10">
+        <Image src={logo5} alt="logo3" width={100}/>
+        <Image src={logo4} alt="lines" width={100}/>
+        <Image src={logo7} alt="logo1" width={100}/>
       </div>
     </div>
   );

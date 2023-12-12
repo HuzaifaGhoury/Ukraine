@@ -1,6 +1,5 @@
 import Image from "next/image";
 import logo from "../../public/logo.png";
-import bear from "../../public/bear.png";
 import Third from "./Third";
 import SecondPage from "./SecondPage";
 import Tabs from "./Tabs";
@@ -64,7 +63,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-      {/* <Second/> */}
       <SecondPage/>
       <Third/>
       <Tabs/>

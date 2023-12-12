@@ -1,8 +1,8 @@
-import React from 'react';
-import Image from 'next/image';
-import phone from '../../public/icon-megaphone.jpg';
-import checking from '../../public/icon-checking.jpg';
-import panic from '../../public/icon-panic.jpg';
+import React from "react";
+import Image from "next/image";
+import phone from "../../public/icon-megaphone.jpg";
+import checking from "../../public/icon-checking.jpg";
+import panic from "../../public/icon-panic.jpg";
 
 export default function TabsOne() {
   const data = [
@@ -22,19 +22,25 @@ export default function TabsOne() {
 
   return (
     <div>
-      <div className='md:flex md:p-10 md:gap-7 md:px-40 md:justify-center' >
-      {data.map((item, index) => (
-        <div
-        key={index}
-        className="rounded-lg bg-white md:w-9.5/12 w-11/12 p-5 md:p-10" style={{ height: "330px"}}>
-        
-          <Image src={item.image} alt={`Image ${index}`} width={100} height={100} className='mb-5'/>
-          <p className="text-black font-poppins text-25 font-bold mt:30">
-  {item.text}
-</p>
-       </div>
-
-      ))}</div>
+      <div className="md:flex md:p-10 pl-3 md:gap-7 md:px-40 sm:px-10 md:justify-center">
+        {data.map((item, index) => (
+          <div
+            key={index}
+            className="rounded-lg bg-white  md:w-9.5/12 mb-8 w-11/12 p-7 md:p-10 "
+          >
+            <Image
+              src={item.image}
+              alt={`Image ${index}`}
+              width={100}
+              height={100}
+              className="mb-5 "
+            />
+            <p className="text-black font-poppins text-25 font-bold mt:30">
+              {item.text}
+            </p>
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
