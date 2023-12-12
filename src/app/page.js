@@ -1,3 +1,4 @@
+"use client"
 import Image from "next/image";
 import logo from "../../public/logo.png";
 import Third from "./Third";
@@ -5,6 +6,8 @@ import SecondPage from "./SecondPage";
 import Tabs from "./Tabs";
 import SlidesAndmap from "./SlidesAndmap";
 import Footer from "./Footer";
+import Link from "next/link";
+
 export default function Home() {
   return (
     <div>
@@ -44,8 +47,8 @@ export default function Home() {
             </h2>
 
             <div className="text-white md:flex md:justify-center w-1/1 py-10 gap-5 ml-2">
-              <button class="order-1 rounded-full bg-orange-500 shadow-md w-80 h-16 text-bold">
-                Что я могу сделать?
+              <button class="order-1 rounded-full bg-orange-500 shadow-md w-80 h-16 text-bold" onClick={'/signin'}>
+<Link href='/signin'>Что я могу сделать?</Link>                
               </button>
               <button class="order-2 rounded-full shadow-md border border-white w-80 h-16 mt-5 md:mt-0">
                 Почему это плохо?
