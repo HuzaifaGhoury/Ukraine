@@ -14,7 +14,8 @@ export default function Home() {
       >
         <nav className="p-28px 15px">
           <div className="md:flex md:justify-between items-center">
-            <Image src={logo} />
+           
+           <div className=" sm:flex justify-center "> <Image src={logo}/></div>
             <div className="hidden md:flex text-2xl text-white justify-between group-hover:text-orange-500 cursor-pointer">
               <h2 className="hover:text-orange-500 hover:underline">RU</h2>
               <span className="mx-2">|</span>

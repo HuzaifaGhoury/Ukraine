@@ -1,4 +1,3 @@
-import React from "react";
 import Map from "./Map";
 import Post from "./Post";
 export default function SlidesAndmap() {
@@ -19,4 +18,3 @@ export default function SlidesAndmap() {
     </div>
   );
 }
-

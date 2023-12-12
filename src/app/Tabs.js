@@ -1,5 +1,4 @@
 "use client";
-// components/Tabs.js
 
 import React, { useState } from "react";
 import TabsOne from "./TabsOne";

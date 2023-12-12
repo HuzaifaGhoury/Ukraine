@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import Image from "next/image";
 import bear from "../../public/bear.png";
 
@@ -38,5 +38,5 @@ export default function SecondPage() {
         </div>
       </div>
     </div>
-  )
+  );
 }
