@@ -5,7 +5,9 @@ export default function Page() {
   const [email, setEmail] = useState("");
 
   const handleButtonClick = () => {
+    console.log(email)
     setEmail("");
+
   };
 
   return (
